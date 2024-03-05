@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const AboutMe = () => {
   return (
-    <section>
+    <section id='about-mehehe'>
 
         
         <div className='w-full flex pb-11 flex-col justify-center items-center'>

@@ -29,7 +29,7 @@ const NavBar = () => {
                 Home
               </span>
             </Link>
-            <Link className='py-4' href='/internship' passHref>
+            <Link className='py-4' href='.about-mehehe' passHref>
               <span className='group text-xl text-gray-500 transition-all duration-300 ease-in-out'>
                 About me
               </span>
@@ -55,17 +55,17 @@ const NavBar = () => {
                 Home
               </span>
             </Link>
-            <Link href='/internship' passHref>
+            <Link href='#about-mehehe' passHref>
               <span className='group bg-left-bottom bg-gradient-to-r dark:hover:text-[#D9AA1E] hover:text-[#D9AA1E]   from-[#D9AA1E] to-[#F6BB] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
                 About me
               </span>
             </Link>
-            <Link href='/placement' passHref>
+            <Link href='#skills-hehe' passHref>
               <span className='group bg-left-bottom bg-gradient-to-r dark:hover:text-[#D9AA1E] hover:text-[#D9AA1E]   from-[#D9AA1E] to-[#F6BB] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
                 Skills
               </span>
             </Link>
-            <Link href='/apply' passHref>
+            <Link href='#projects' passHref>
               <span className='group bg-left-bottom bg-gradient-to-r dark:hover:text-[#D9AA1E] hover:text-[#D9AA1E]   from-[#D9AA1E] to-[#F6BB] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
                 Project
               </span>

@@ -6,7 +6,7 @@ import { useRef } from "react";
 const Projects = () => {
 
   return (
-    <section>
+    <section id="projects">
         <div className='flex justify-center'>
             <h1 className='flex whitespace-pre pb-20 justify-center text-white pt-24 text-4xl font-bold'>My <span className='text-primary'>Projects</span></h1>
             <div className="bg-neutral-800">
