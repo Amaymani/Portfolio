@@ -6,9 +6,23 @@ import AboutMe from "@/components/AboutMe";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
+import { useEffect } from 'react';
+import Lenis from '@studio-freight/lenis'
 
 
 export default function Home() {
+
+  useEffect( () => {
+    const lenis = new Lenis()
+   
+    function raf(time:any) {
+        lenis.raf(time)
+        requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
+},[])
+
   const { word, stop, start } = useTypingText({
     words: [" ", " Frontend", " UI/UX", " Backend"," Web3"],
     keySpeed: 80,
