@@ -35,8 +35,8 @@ export default function Home() {
         <>
           <div className="mt-24 flex justify-between">
             <div className="relative top-[300px] left-[300px]">
-              <h1 className="text-5xl ">PARA-<span className="font-semibold text-black dark:text-[#BF8211] [text-shadow:0_0_9px_#A6600A]">space</span> </h1>
-              <h1 className="text-4xl pt-4">I do <span className="text-[#BF8211]">{word}</span></h1>
+              <h1 className="text-8xl ">PARA-<span className="font-semibold text-black dark:text-[#BF8211] [text-shadow:0_0_9px_#A6600A]">space</span> </h1>
+              <h1 className="text-6xl pt-4">I do <span className="text-[#BF8211]">{word}</span></h1>
             </div>
             <div>
 
