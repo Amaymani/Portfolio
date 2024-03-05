@@ -31,7 +31,7 @@ export default function Home() {
 
   return (
     <>
-      <section className="hero pb-[300px]">
+      <section id="home" className="hero pb-[300px]">
         <>
           <div className="mt-24 flex justify-between">
             <div className="relative top-[300px] left-[300px]">
