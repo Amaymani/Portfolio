@@ -1,5 +1,5 @@
 "use client"
-import Image from "next/image";
+
 import { useTypingText } from "../components/useTypingTest";
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import AboutMe from "@/components/AboutMe";
@@ -43,7 +43,7 @@ export default function Home() {
             <motion.img
             className="border-2 max-w-full max-h-full border-gray-500 bg-[rgba(39,_39,_39,_0.1)] backdrop-filter backdrop-blur-[60px] [box-shadow:0_0_80px_rgba(0,_0,_0,_0.3)]"
             style={{
-                width:320,
+                width:250,
                 height:"auto",
                 maxWidth:"100%",
 
@@ -64,7 +64,7 @@ export default function Home() {
       </section>
       <AboutMe/>
       <Skills/>
-      <Projects/>
+      {/* <Projects/> */}
       <Footer/>
       
     </>
