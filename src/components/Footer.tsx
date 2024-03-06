@@ -8,7 +8,7 @@ const Footer = () => {
   <section className="mb-32">
     <div className="flex justify-center">
       <div className="text-center md:max-w-xl lg:max-w-3xl">
-        <h2 className="mb-12 px-6 whitespace-pre text-3xl font-bold">Contact <span className='text-primary'>Me</span></h2>
+        <h2 className="mb-12 px-6 whitespace-pre text-3xl font-bold">Contact <span className='text-primary font-["Courier_Prime",_monospace] text-5xl'>Me</span></h2>
       </div>
     </div>
 

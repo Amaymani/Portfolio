@@ -6,7 +6,7 @@ import Image from 'next/image';
 const Skills = () => {
   return (
     <div id="skills-hehe" className='about-me h-fit bg-[#d2a813] bg-[linear-gradient(315deg,_#d2a813_0%,_#131212_74%)]'>
-        <h1 className='flex whitespace-pre pb-10 justify-center text-white pt-24 text-4xl font-bold'>My <span className='text-primary'>Skills</span></h1>
+        <h1 className='flex whitespace-pre pb-10 justify-center text-white pt-24 text-4xl font-bold'>My <span className='text-primary text-5xl font-["Courier_Prime",_monospace]'>Skills</span></h1>
         <div className='h-auto max-w-full px-32 grid md:grid-cols-5 grid-cols-4 gap-4 grid-rows-3'>
             <div className='flex cols-span-2 row-span-2 px-3 justify-center  border-[1px] border-[rgba(255,255,255,.25)] rounded-[20px] bg-[rgba(253,253,253,0.12)] [box-shadow:0_0_10px_1px_rgba(0,_0,_0,_0.25)] backdrop-filter backdrop-blur-[15px] hover:bg-white transition ease-in-out delay-100 duration-500'><Image className='my-auto h-auto width-[150] max-w-full' src={"/next.png"} alt='next_logo' width={236} height={0}></Image></div>
             <div className='flex justify-center py-3 px-3  border-[1px] border-[rgba(255,255,255,.25)] rounded-[20px] bg-[rgba(253,253,253,0.12)] [box-shadow:0_0_10px_1px_rgba(0,_0,_0,_0.25)] backdrop-filter backdrop-blur-[15px] hover:bg-white transition ease-in-out delay-100 duration-500'><Image className='my-auto h-auto width-[100] max-w-full ' src={"/mongo.png"} alt='next_logo' width={128} height={128}></Image></div>
