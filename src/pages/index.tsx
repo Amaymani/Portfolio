@@ -64,7 +64,7 @@ export default function Home() {
       </section>
       <AboutMe/>
       <Skills/>
-      {/* <Projects/> */}
+      <Projects/>
       <Footer/>
       
     </>
