@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useTheme } from 'next-themes';
-import AnchorLink from "react-anchor-link-smooth-scroll";
-
 
 const NavBar = () => {
     const [navbar, setNavbar]=useState(false);
@@ -51,26 +49,26 @@ const NavBar = () => {
             </div>
 
           <div className='flex flex-col md:flex-row md:mx-6 font-semibold max-md:hidden text-lg md:gap-14 sm:gap-2'>
-            <AnchorLink href='#home' passHref>
+            <Link href='#home' passHref>
               <span className='group bg-left-bottom bg-gradient-to-r dark:hover:text-[#D9AA1E] hover:text-[#D9AA1E]   from-[#D9AA1E] to-[#F6BB] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
                 Home
               </span>
-            </AnchorLink>
-            <AnchorLink href='#about-mehehe' passHref>
+            </Link>
+            <Link href='#about-mehehe' passHref>
               <span className='group bg-left-bottom bg-gradient-to-r dark:hover:text-[#D9AA1E] hover:text-[#D9AA1E]   from-[#D9AA1E] to-[#F6BB] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
                 About me
               </span>
-            </AnchorLink>
-            <AnchorLink href='#skills-hehe' passHref>
+            </Link>
+            <Link href='#skills-hehe' passHref>
               <span className='group bg-left-bottom bg-gradient-to-r dark:hover:text-[#D9AA1E] hover:text-[#D9AA1E]   from-[#D9AA1E] to-[#F6BB] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
                 Skills
               </span>
-            </AnchorLink>
-            <AnchorLink href='#projects' passHref>
+            </Link>
+            <Link href='#projects' passHref>
               <span className='group bg-left-bottom bg-gradient-to-r dark:hover:text-[#D9AA1E] hover:text-[#D9AA1E]   from-[#D9AA1E] to-[#F6BB] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
                 Project
               </span>
-            </AnchorLink>
+            </Link>
           </div>
 
           <div className='flex justify-center items-center gap-7'>
