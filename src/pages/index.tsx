@@ -39,7 +39,8 @@ export default function Home() {
               <h1 className="text-7xl">PARA-<span className="font-semibold text-black dark:text-[#BF8211] [text-shadow:0_0_9px_#A6600A]">space</span> </h1>
               <h1 className="text-5xl pt-4">I do <span className="text-[#BF8211]">{word}</span></h1>
             </div></div>
-            <div className="flex items-center justify-center m-[15%]">
+            <div className="flex relative items-center justify-center m-[15%]">
+              <div className="group relative">
             <motion.img
             className="border-2 max-w-full max-h-full border-gray-500 bg-[rgba(39,_39,_39,_0.1)] backdrop-filter backdrop-blur-[60px] [box-shadow:0_0_80px_rgba(0,_0,_0,_0.3)]"
             style={{
@@ -57,7 +58,10 @@ export default function Home() {
             dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
             dragElastic={0.5}
             whileTap={{ cursor: "grabbing" }}
-        />
+        >
+        </motion.img>
+        <span  className=" group-hover:visible invisible top-[-32px] text-xl left-1/2 transform -translate-x-1/2 px-4 bg-[#ce9a3f] text-[#fcfcfc] rounded-[6px] absolute">Drag me!</span>
+        </div>
             </div>
           </div>
 
